@@ -23,6 +23,9 @@
     "swig": "^1.4.2"
   },
   "devDependencies": {
-    "mocha": "~2.0.1"
+    "mocha": "~2.0.1",
+    "istanbul": "~0.2.4",
+    "coveralls": "~2.7.1",
+    "mocha-lcov-reporter": "0.0.1"
   }
 }

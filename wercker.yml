@@ -5,10 +5,14 @@ build:
   steps:
     # A step that executes `npm install` command
     - npm-install
-    # Install mocha globally
-    - script:
-        name: install mocha globally
-        code: |
-          sudo npm install -g mocha
     # A step that executes `npm test` command
     - npm-test
+    # Build Code Coverage
+    - script:
+            name: set coveralls token
+            code: |-
+                echo service_name: wercker > .coveralls.yml
+                echo repo_token: $COVERALLS_TOKEN >> .coveralls.yml
+        - script:
+            name: send to reports to coveralls
+            code: make coveralls

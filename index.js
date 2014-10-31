@@ -2,6 +2,8 @@ var _ = require('lodash');
 var swig = require('swig');
 swig.setDefaults({ varControls: ['<%=', '%>'] });
 
+var arbitraryFunctionToTestCodeCoverage = function(){return "test";};
+
 var variablesFromCss = function(css, options){
     var abstractedVariables = {};
 
