@@ -3,6 +3,11 @@
   "version": "0.0.3",
   "description": "Convert Icomoon CSS to Less/Stylus",
   "main": "index.js",
+  "repository" : {
+    "type" : "git",
+    "url" : "https://github.com/StevenWeathers/icomoon-style-convert.git"
+  },
+  "homepage" : "https://github.com/StevenWeathers/icomoon-style-convert",
   "scripts": {
     "test": "mocha"
   },
