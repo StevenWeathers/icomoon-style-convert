@@ -6,6 +6,7 @@ A Node.js Module to Convert [icomoon](https://icomoon.io/) icon font css styles 
 Eventually will add Stylus and SCSS support
 
 [![wercker status](https://app.wercker.com/status/bad55a5bf1bc385319d8b3cf109e29a7/m/master "wercker status")](https://app.wercker.com/project/bykey/bad55a5bf1bc385319d8b3cf109e29a7)
+[![Coverage Status](https://img.shields.io/coveralls/StevenWeathers/icomoon-style-convert.svg)](https://coveralls.io/r/StevenWeathers/icomoon-style-convert)
 
 ### Install
 
