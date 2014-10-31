@@ -5,7 +5,10 @@ build:
   steps:
     # A step that executes `npm install` command
     - npm-install
-    # A setp that installs mocha for unit tests
-    code: sudo npm install -g mocha
+    # Install mocha globally
+    - script:
+        name: install mocha globally
+        code: |
+          sudo npm install -g mocha
     # A step that executes `npm test` command
     - npm-test
