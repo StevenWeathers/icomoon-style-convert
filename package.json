@@ -1,6 +1,6 @@
 {
   "name": "icomoon-style-convert",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "description": "Convert Icomoon CSS to Less/Stylus",
   "main": "index.js",
   "scripts": {

@@ -19,7 +19,7 @@ var icomoonconvert = require("icomoon-style-convert");
 var fs = require('fs');
 var css = fs.readFileSync("style.css","utf-8");
 
-icomoonconvert.less(css);
+fs.writeFileSync('style.less', icomoonconvert.less(css));
 ```
 
 ### Example Usage with Prefix Option
@@ -33,5 +33,5 @@ var options = {
 	classPrefix: "sw-"
 };
 
-icomoonconvert.less(css, options);
+fs.writeFileSync('style.less', icomoonconvert.less(css,options));
 ```
