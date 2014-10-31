@@ -1,0 +1,18 @@
+{
+  "name": "icomoon-style-convert",
+  "version": "0.0.1",
+  "description": "Convert Icomoon CSS to Less/Stylus",
+  "main": "index.js",
+  "scripts": {
+    "test": "mocha"
+  },
+  "author": "Steven Weathers",
+  "license": "BSD-2-Clause",
+  "dependencies": {
+    "lodash": "~2.4.1",
+    "q": "~1.0.1"
+  },
+  "devDependencies": {
+    "mocha": "~2.0.1"
+  }
+}
