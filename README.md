@@ -5,6 +5,12 @@ A Node.js Module to Convert [icomoon](https://icomoon.io/) icon font css styles 
 
 Eventually will add Stylus and SCSS support
 
+### Install
+
+```js
+npm install --save-dev icomoon-style-convert
+```
+
 
 ### Example Usage
 
