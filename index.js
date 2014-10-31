@@ -58,10 +58,10 @@ var cssToLess = function(css, options){
 // @todo add SCSS support
 module.exports = {
     less: function(css, options){
-        if (!options){
-            var options = {};
+        if (typeof options != "object"){
+            options = {};
         }
         var less = cssToLess(css, options);
         return less;
     }
-}
+};
