@@ -7,7 +7,12 @@
     "test": "mocha"
   },
   "author": "Steven Weathers",
-  "license": "BSD-2-Clause",
+  "licenses": [
+    {
+      "type": "MIT",
+      "url": "https://raw.githubusercontent.com/StevenWeathers/icomoon-style-convert/master/LICENSE"
+    }
+  ],
   "dependencies": {
     "lodash": "~2.4.1"
   },
