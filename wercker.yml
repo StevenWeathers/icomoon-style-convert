@@ -15,6 +15,8 @@ build:
           echo repo_token: $COVERALLS_TOKEN >> .coveralls.yml
           export COVERALLS_SERVICE_NAME=wercker
           export COVERALLS_REPO_TOKEN=$COVERALLS_TOKEN
+          export COVERALLS_GIT_COMMIT=$WERCKER_GIT_COMMIT
+          export COVERALLS_SERVICE_JOB_ID=$WERCKER_BUILD_ID
     - script:
         name: send to reports to coveralls
         code: make coveralls
